@@ -11,7 +11,7 @@ let UnbluMobileCoBrowsing_CHECKSUM              = "667bcb19ddedca4f34e0c9399f900
 let UnbluCallKitModule_CHECKSUM                 = "e9978448930b1fe55d005db8b2e4dee4bcfc2f3fb69cb329df65aac995dc3cb6"
 
 let package = Package(
-    name: "UnbluMobileSDKWrapper",
+    name: "UnbluMobileSDK",
     platforms: [
         .iOS(.v14)
     ],
