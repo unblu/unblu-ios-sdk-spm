@@ -1,14 +1,15 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "4.10.1"
+let version = "4.11.1"
 
-let UnbluCoreSDK_CHECKSUM                     = "4369a7240eb28fe34b77fbc2bcf320aecbb581bfb2ec63266a9a9475429a7a2c"
-let UnbluFirebaseNotificationModule_CHECKSUM   = "f7dd5487bfe62ca51359295b62b8db872c2aadde052c0219e6ecb5a7726dd2ad"
-let UnbluOpenTokCallModule_CHECKSUM            = "5b0893fc4020bedb13b867a69d78fc2b1b91c67c8f16359bd0619067214f4d69"
-let UnbluLiveKitCallModule_CHECKSUM            = "d8ce922ccc6be694f68d74d779e88b008740c3bddf4acf007d970e4707c800df"
-let UnbluMobileCoBrowsing_CHECKSUM              = "667bcb19ddedca4f34e0c9399f9007b17799252abaa57b029ff147087a190b38"
-let UnbluCallKitModule_CHECKSUM                 = "e9978448930b1fe55d005db8b2e4dee4bcfc2f3fb69cb329df65aac995dc3cb6"
+let UnbluCoreSDK_CHECKSUM = "40b359cd31e4ad9b87a38c04cceb3ad93ad046d68f85b30949ea85d499febfd1"
+let UnbluFirebaseNotificationModule_CHECKSUM = "2778b60eeb675eedc5ed2e0617924ab01b7445a07da69e574aa94b64d38f7f0b"
+let UnbluOpenTokCallModule_CHECKSUM = "b5a9b6ce425d98a13a16113c8afed7e1616c544d68929c6420f9a46252de4cd6"
+let UnbluLiveKitCallModule_CHECKSUM = "2d1d6328073392d233bf404ad9330cff5068cff2eebc37a9259bf43e8f1395f3"
+let UnbluMobileCoBrowsing_CHECKSUM = "f398250bb74eb9957ea425e2733eb312ca8ed60c9f107b6438777a48cf72d006"
+let UnbluCallKitModule_CHECKSUM = "77a1da5b5a15de244ca80de3a2677078c3e33200b09ca431cb9409e607de528f"
+let UnbluDocumentCoBrowsingModule_CHECKSUM = "f82e11f864a6edf5198edcd59a3b047a13db07001017c80af51503db9f0e3572"
 
 let package = Package(
     name: "UnbluMobileSDK",
@@ -67,6 +68,11 @@ let package = Package(
             name: "UnbluCallKitModule",
             url: "https://github.com/unblu/ios-sdk-xcframeworks/releases/download/\(version)/UnbluCallKitModule.xcframework.zip",
             checksum: UnbluCallKitModule_CHECKSUM
+        ),
+        .binaryTarget(
+            name: "UnbluDocumentCoBrowsingModule",
+            url: "https://github.com/unblu/ios-sdk-xcframeworks/releases/download/\(version)/UnbluDocumentCoBrowsingModule.xcframework.zip",
+            checksum: UnbluDocumentCoBrowsingModule_CHECKSUM
         )
     ]
 )
