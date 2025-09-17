@@ -1,15 +1,15 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "4.11.1"
+let version = "4.11.2"
 
-let UnbluCoreSDK_CHECKSUM = "801d481521278aa4b48393bc4b7fd6298cac293ebc8453e7cc611817c92c437c"
-let UnbluFirebaseNotificationModule_CHECKSUM = "d3a9c8b793374776a0e79e4bff8bc9186b6a23f606e4fb5854e7080645831e85"
-let UnbluOpenTokCallModule_CHECKSUM = "9ba243441955a2edf20ad1c522f0886ba0465861422631ad7fc5134d8e1dc81a"
-let UnbluLiveKitCallModule_CHECKSUM = "9240b8f6d7e8bf1df448d79de2a24a02099d040993aefdb5fff20b2e36a512cc"
-let UnbluMobileCoBrowsing_CHECKSUM = "a755ad9c82bb6a5dcd79cebb294cbbd4b176d2751d29765d84f1695eeb42fa20"
-let UnbluCallKitModule_CHECKSUM = "b354cf2171e85b528896d4703e8226505c2dd5bf4d4081915623dffd04e27ce2"
-let UnbluDocumentCoBrowsingModule_CHECKSUM = "42427016df93c8666366330e4bc041872eec8d937c8368a5361b9e963dbb4fe1"
+let UnbluCoreSDK_CHECKSUM = "61e2a364b33b0a602522ada598151e6b53a6ef81b36023b34f0109476d166ed3"
+let UnbluFirebaseNotificationModule_CHECKSUM = "7d90e3fe54ba94b613d4c198f4e45c081d712f9760aa4a1643eaffdc0ee84b4b"
+let UnbluOpenTokCallModule_CHECKSUM = "35d107debe5502fbdad1e662a0cd0e309003ea7cea07157c887333f6e046ce18"
+let UnbluLiveKitCallModule_CHECKSUM = "bc98bebc42f95a6e3f4353a1b4478b610ff5a29f1d5341e6012c47d0ab1fb462"
+let UnbluMobileCoBrowsing_CHECKSUM = "73d1d206c4450929015574c300da0480e986d28ff7a7db8c8cd084ddee7bb28e"
+let UnbluCallKitModule_CHECKSUM = "3cc580c99a5262fdd677200eae2dbccbf2ceb34f38160adc598dc379465eaac7"
+let UnbluDocumentCoBrowsingModule_CHECKSUM = "b0916ea041ed0f8b244be3f673a549135f7c5f8b649c31c200d77ab6898e63a1"
 
 
 let package = Package(
